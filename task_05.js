@@ -33,10 +33,10 @@ if(country === null) {
 
 		default: 
 			console.log('В вашей стране доставка не доступна');
-			price = undefined;
+			price = null;
 	}
 
-	if(price !== undefined) {
+	if(price !== null) {
 		console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
 	}
 }

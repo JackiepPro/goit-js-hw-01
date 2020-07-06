@@ -1,8 +1,7 @@
-// Задание 3
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 
-let password = prompt('введите пароль!')
+let password = prompt('введите пароль!');
 
 if(password === null) {
 	message = console.log('Отменено пользователем!');
@@ -11,3 +10,5 @@ if(password === null) {
 } else {
 	message = console.log('неверный пароль!');
 }
+
+alert(message);
