@@ -1,5 +1,4 @@
-// Задание 5 - done
-let country = prompt('Выбере страну');
+let country = prompt('Введите страну доставки товара');
 let price;
 
 if(country === null) {

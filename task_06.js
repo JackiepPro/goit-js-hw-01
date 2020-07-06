@@ -1,4 +1,3 @@
-//Задание 6 - done
 let total = 0
 
 while (true) {
@@ -10,5 +9,5 @@ while (true) {
 	
 }
 
-console.log('всего', value);
+console.log(`Общая сумма чисел равна ${value}`);
 
