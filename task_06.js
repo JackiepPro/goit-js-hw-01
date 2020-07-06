@@ -1,4 +1,4 @@
-let total = 0
+let total = 0;
 
 while (true) {
 	let input = prompt('введите любое число');
