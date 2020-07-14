@@ -6,8 +6,9 @@ while (true) {
 
 	if(!value) break;
 	total += value;
-	
+
+    console.log(`Общая сумма чисел равна ${value}`);
 }
 
-console.log(`Общая сумма чисел равна ${value}`);
+
 
