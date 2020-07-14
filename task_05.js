@@ -10,22 +10,22 @@ if(country === null) {
 			price = 100;
 			break;
 
-		case 'Чили':
+		case 'чили':
 			country = 'Чили';
 			price = 250;
 			break;
 
-		case 'Австралия':
+		case 'австралия':
 			country = 'Австралию';
 			price = 170;
 			break;
 
-		case 'Индия':
+		case 'индия':
 			country = 'Индию';
 			price = 80;
 			break;
 
-		case 'Ямайка':
+		case 'ямайка':
 			country = 'Ямайку';
 			price = 120;
 			break; 
